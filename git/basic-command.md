@@ -31,7 +31,20 @@ git status
 ## commit
 - 현재 area에 올라간 내용을 스냅샷 찍기 
 - `-m`옵션을 통해 커밋메시지를 바로 입력 가능
-- '안녕하세유'
+
 ```bash
 git commit -m "first commit"
+```
+
+## remote add
+- 원격 저장소에 주소를 저장
+```bash
+git remote add {remote_name} {remote_url}
+```
+
+## push
+- 원격 저장소로 bracnh를 업로드
+```bash
+git push origin master
+git push {remote_name} {branch_name}
 ```
