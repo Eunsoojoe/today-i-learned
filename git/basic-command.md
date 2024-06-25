@@ -43,8 +43,14 @@ git remote add {remote_name} {remote_url}
 ```
 
 ## push
-- 원격 저장소로 bracnh를 업로드
+- 원격 저장소로 branch를 업로드
 ```bash
 git push origin master
 git push {remote_name} {branch_name}
+```
+## rm
+- 선택 파일 및 폴더를 삭제
+```bash
+git rm {file_name}
+git rm --cached {filed_name}
 ```
