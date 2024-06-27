@@ -12,7 +12,7 @@
 
 # 2024.06.25
 - python 설치(+ MacOS Ver.)
-- 가상환경으로 jupyterlab 설치 및 실행
+- pip를 통해 가상환경 활성화 jupyterlab 설치 및 실행
     ```bash
     pip -m venv venv
     install jupyterlab
@@ -45,4 +45,17 @@
         - Set : 집합의 개념
         - Dictionary : key값과 value값 존재
 
-        
+# 2024.06.26
+- pip freeze > requirements.txt 를 통해 전역 혹은 가상환경에 설치된 패키지 목록을 저장
+- git clone을 통해 github에 있는 python을 로컬에 복제
+- 가상환경 다시 생성 (python  -m venv venv)
+- pip install -r requirements.txt
+- 조건문
+    - if 
+    - elif
+    - else
+- 반복문
+- for문
+    - enumerate : 인덱싱이 필요할 때
+- Dictionary의 반복
+- break, continue, pass, match
