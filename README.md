@@ -59,3 +59,7 @@
     - enumerate : 인덱싱이 필요할 때
 - Dictionary의 반복
 - break, continue, pass, match
+
+
+# 2024.07.01
+
