@@ -1,4 +1,7 @@
 ## Django
+
+전체 코드 : https://github.com/Eunsoojoe/dmf-django-mtv-basic
+
   1. 프로젝트 생성
   2. 가상환경 생성
   3. 가상환경 활성화
