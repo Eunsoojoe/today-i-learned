@@ -11,4 +11,4 @@
 
 ## Managed Table / External Table
 - Managed Table : HDFS 내부에 데이터 저장 
-- External Table : HDFS에 저장된 원본 데이터를 토대로 외부에 테이블을 생성
+- External Table : HDFS에 저장된 원본 데이터를 토대로 외부에 테이블을 생성.
