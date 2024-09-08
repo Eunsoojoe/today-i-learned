@@ -6,5 +6,6 @@
 
 [Observable Docs]('https://observablehq.com/documentation/learn/overview') ·
 [Observable D3]('https://d3js.org/') ·
-[Observable Plot]('https://observablehq.com/plot/')
+[Observable Plot]('https://observablehq.com/plot/') ·
+[Observable Framework]('https://observablehq.com/framework/') ·
 [My Observable]('https://observablehq.com/user/@eunsucho')
