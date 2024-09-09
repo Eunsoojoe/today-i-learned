@@ -1,6 +1,6 @@
 # Spark MLLib 
 
-[참고 자료](https://spark.apache.org/mllib/)
+[참고 자료](https://spark.apache.org/mllib/) · [Zepplin 코드](https://github.com/Eunsoojoe/dmf-spark/tree/main/4.MLlib)
 
 - zeppelin 실행 
     - `cd zeppelin-0.10.1/`
