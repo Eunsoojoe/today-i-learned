@@ -16,24 +16,23 @@
 
 #### 전처리 process
 
-        ```spark
-        df = spark.read.csv('/user/ubuntu/input/airline/1988.csv', header=True, inferSchema=True)
+```python
+df = spark.read.csv('/user/ubuntu/input/airline/1988.csv', header=True, inferSchema=True)
 
-        # 특정 컬럼선택
-        df = df.select('DayOfWeek', 'FlightNum', 'UniqueCarrier', 'Origin', 'Dest', 'Cancelled')
+# 특정 컬럼선택
+df = df.select('DayOfWeek', 'FlightNum', 'UniqueCarrier', 'Origin', 'Dest', 'Cancelled')
 
-        # 문자열 데이터를 숫자화
-        from pyspark.ml.feature import StringIndexer
-        indexer = StringIndexer(inputCols=['UniqueCarrier','Origin', 'Dest'], outputCols=['CarrierIndex','OriginIndex', 'DestIndex'])
-        df = indexer.fit(df).transform(df)
-        
-        # 벡터화
-        feature_names = ['DayOfWeek','FlightNum','CarrierIndex','OriginIndex','DestIndex']
+# 문자열 데이터를 숫자화
+from pyspark.ml.feature import StringIndexer
+indexer = StringIndexer(inputCols=['UniqueCarrier','Origin', 'Dest'], outputCols=['CarrierIndex','OriginIndex', 'DestIndex'])
+df = indexer.fit(df).transform(df)
 
-        assembler = VectorAssembler(inputCols=feature_names, outputCol='feature')
-        df = assembler.transform(df)
-        
-        ```
+# 벡터화
+feature_names = ['DayOfWeek','FlightNum','CarrierIndex','OriginIndex','DestIndex']
+
+assembler = VectorAssembler(inputCols=feature_names, outputCol='feature')
+df = assembler.transform(df)
+```
 - tarin/test 데이터셋 분리
 - 모델 학습 및 오차 분석
     - 선형 회귀 
