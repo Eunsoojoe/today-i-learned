@@ -4,6 +4,7 @@
 
 + [2024-09-08 | Spark를 활용한 대용량 데이터 분석](https://github.com/Eunsoojoe/today-i-learned/blob/master/spark/spark-basic.md)
 + [2024-09-09 | Spark를 활용한 ML (예측·분류·추천)](https://github.com/Eunsoojoe/today-i-learned/blob/master/spark/spark-MLlib.md)
++ [2024-09-10 | Kafka로 실시간 데이터 받고 Spark로 처리]()
 
 
 
