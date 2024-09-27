@@ -7,7 +7,7 @@
 + [2024-09-10 | Kafka로 실시간 데이터 받고 Spark로 처리](https://github.com/Eunsoojoe/today-i-learned/blob/master/spark/spark-kafka.md)
 + [2024-09-23 | ElasticSearch로 데이터 정의·입력·색인](https://github.com/Eunsoojoe/today-i-learned/blob/master/elasticsearch/search-basic.md)
 + [2024-09-26 | ElasticSearch로 데이터 매핑](https://github.com/Eunsoojoe/today-i-learned/blob/master/elasticsearch/data-modeling.md)
-
++ [2024-09-28 | Logstash로 데이터 수집·전환·전송](https://github.com/Eunsoojoe/today-i-learned/blob/master/elasticsearch/logstash.md)
 
 `#내맘대로TIL챌린지` `#동아일보` `#미디어프론티어` `#글로벌소프트웨어캠퍼스` `#GSC신촌`
 
