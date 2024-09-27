@@ -12,8 +12,7 @@
 - [terminal2] `bin/logstash -f pipeline/logfile.conf` 
     - 'logstash야 저 경로에 있는 파일을 읽어줘 ^^'
 - localhost:9200 접속
-<br>
-
+<br><br>
 # Kafka Topic 구독
 - kafka와 zookeeper 실행
    ```
@@ -26,8 +25,9 @@
 - [terminal2] logstash > pipeline > bitcoin.conf
     - input : bootstrap server, topic 정의
     - filter : json 데이터를 logstash가 처리할 수 있는 형태로 변환
+<br><br>
 
-# 'insta' DB와 연결해서 데이터 읽기
+# django DB와 연결해서 데이터 읽기
 - `git clone intsa pjt` `python3 manage.py runserver`
 - 가상환경 활성화 후 django server 열기
 - `logstash/pipeline/database.conf` 실행
